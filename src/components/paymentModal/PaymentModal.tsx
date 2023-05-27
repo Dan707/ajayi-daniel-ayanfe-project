@@ -113,13 +113,13 @@ const PaymentModal = () => {
     setExpiryMonth(value);
   };
   return (
-    <div className="bg-white font-HemenixRegular h-5/6 rounded-lg   w-8/12">
+    <div className="bg-white font-HemenixRegular h-[650px] rounded-lg   w-8/12">
       <div className="flex justify-end items-center ">
         <div className="h-[32px] flex justify-center items-center bg-opacity-30 w-[40px] bg-[#73788A]">
           <FaTimes className="text-[#2b2f31] text-opacity-80 text-[14px] cursor-pointer" />
         </div>
       </div>
-      <div className="flex justify-center items-center mt-8 h-5/6 w-full gap-8 px:8 lg:px-16">
+      <div className="flex justify-center items-center mt-8 h-[85%] w-full gap-8 px:8 lg:px-16">
         <div className="w-2/3 h-full ">
           <div className="flex justify-between items-center">
             <div className="flex justify-start items-center gap-3">

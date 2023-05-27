@@ -7,7 +7,7 @@ import { card, masterCard } from "../../assets/images";
 const CardCheckout = ({ expiryYear, expiryMonth, creditCardValue }: any) => {
   return (
     <div className="w-[40%] xxl:w-1/3 h-full font-HemenixRegular flex flex-col justify-end items-center">
-      <div className="w-full h-4/5 bg-[#E8ECEF] rounded-xl relative">
+      <div className="w-full h-4/5 mt-16 bg-[#E8ECEF] rounded-xl relative">
         <div className="w-1/3 bg-[#1365EE] absolute left-1/3 -top-[26%] h-[10px] rounded-sm mx-auto  "></div>
         <div className="w-2/3 bg-[#f7f9fa] -top-[24%]  h-[60%] absolute left-1/2 transform translate-x-[-50%] rounded-xl mx-auto">
           <div className="w-[55%] bg-[#BBD1F5] h-[22px] mx-auto rounded-t-[4px] rounded-b-[8px] bg-opacity-30"></div>
