@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap");
+
+@font-face {
+  font-family: Hemenix-bold;
+  src: url("./assets/fonts/Hemenix Bold.ttf");
+}
+@font-face {
+  font-family: Hemenix-regular;
+  src: url("./assets/fonts/Hemenix Regular.ttf");
+}
+@font-face {
+  font-family: Hemenix-medium;
+  src: url("./assets/fonts/Hemenix Medium.ttf");
+}
+@font-face {
+  font-family: Hemenix-extrabold;
+  src: url("./assets/fonts/Hemenix Extrabold.ttf");
+}
+@font-face {
+  font-family: Hemenix-semibold;
+  src: url("./assets/fonts/Hemenix Semibold.ttf");
+}
